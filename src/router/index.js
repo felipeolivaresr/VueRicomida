@@ -8,17 +8,9 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/productos',
-    name: 'productos',
-    component: () => import('../views/ProductosView.vue'),
-    props: (route) => {
-      return {
-        nombre: "Desayunos",
-        descripcion: "Contamos con desayunos nutritivos y deiciosos",
-        precio: 2000,
-        cantidad: "Para 2 personas"
-      };
-    }
+    path: '/products',
+    name: 'products',
+    component: () => import('../views/ProductsView.vue')
   },
   {
     path: '/contacto',
@@ -26,11 +18,22 @@ const routes = [
     component: () => import('../views/ContactoView.vue'),
     props: (route) => {
       return {
-      nombre: "Chamo Olivares",
-      email: "Elchamito@gmail.com"
-    }
+        nombre: "Chamo Olivares",
+        email: "Elchamito@gmail.com"
+      };
     }
   },
+  {
+    path: '/carrito',
+    name: 'carrito',
+    component: () => import('../views/CarritoView.vue')
+  },
+
+  {
+    path: '/gracias',
+    name: 'gracias',
+    component: () => import('../views/GraciasView.vue')
+  }
 ]
 
 const router = createRouter({

@@ -9,19 +9,15 @@
         <div class="card">
           <img src="../assets/img/colaciones.jpg" class="card-img-top" alt="colaciones" />
           <div class="card-body">
-            <h5 class="card-title fw-bold">Colaciones</h5>
+            <h5 class="card-title fw-bold">Click en "Productos" para comenzar tu experiencia gastronomica</h5>
             <p class="card-text">
-              {{ descripcion }}
+          
             </p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">{{ cantidad}}</li>
-            <li class="list-group-item">{{precio}}</li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
           </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Ver más</a>
-            <a href="#" class="card-link">Comprar</a>
-          </div>
         </div>
       </div>
     </div>
@@ -33,5 +29,6 @@ export default {
 }
 </script>
 <style lang="">
+
   
 </style>

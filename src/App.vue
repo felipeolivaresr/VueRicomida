@@ -21,3 +21,9 @@ export default {
   }
 }
 </script>
+
+<style>
+body {
+  padding-top: 80px; /* Ajusta según la altura real de tu navbar */
+}
+</style>

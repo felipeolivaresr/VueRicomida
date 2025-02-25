@@ -13,10 +13,13 @@
             <router-link class="nav-link text-light" to="/">Inicio</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link text-light" to="/productos">Productos</router-link>
+            <router-link class="nav-link text-light" to="/products">Productos</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link text-light" to="/contacto">Contacto</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link text-light" to="/carrito">Carrito</router-link>
           </li>
         </ul>
       </div>
